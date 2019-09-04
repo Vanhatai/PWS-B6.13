@@ -10,7 +10,7 @@ PWS-B6.13
   соответствующее сообщение.
 3. Bottle использует tornado сервер (pip install tornado).
 
-Структура базы данных album:
+Структура базы данных album (bd.py):
   "id" integer primary key autoincrement,
   "year" integer,
   "artist" text,
